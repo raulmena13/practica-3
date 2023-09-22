@@ -1,0 +1,19 @@
+public class Tutor {
+     private String nombre;
+    private int edad;
+    Telefono telefono;
+
+    public Tutor(String nombre, int edad, Telefono telefono) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.telefono = telefono;
+    }
+
+    public Telefono getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(Telefono telefono) {
+        this.telefono = telefono; 
+   }
+}

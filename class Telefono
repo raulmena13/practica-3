@@ -1,0 +1,42 @@
+public class Telefono {
+     String pais;
+    int lada;
+    String numero;
+
+    
+
+    Telefono(String string, String string0, String string1) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public Telefono(String pais, int lada, String numero) {
+        this.pais = pais;
+        this.lada = lada;
+        this.numero = numero;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    public int getLada() {
+        return lada;
+    }
+
+    public void setLada(int lada) {
+        this.lada = lada;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+    
+}

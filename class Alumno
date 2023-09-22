@@ -1,0 +1,95 @@
+public class Alumno {
+     private String alumno;
+    private String nombre;
+    private String carrera;
+    private String matricula;
+    private String grado;
+    private String grupo;
+    Tutor tutor;
+    /**
+     * @param alumno
+     * @param nombre
+     * @param carrera
+     * @param marticula
+     * @param grado
+     * @param grupo
+          */
+    public Alumno(String alumno,String nombre,String carrera,String marticula,String grado,String grupo,Tutor tutor){
+        this.alumno = alumno;
+        this.nombre = nombre;
+        this.matricula = matricula;
+        this.carrera = carrera;
+        this.grado = grado;
+        this.grupo = grupo;
+        this.tutor = tutor;
+        
+    }
+    
+    public String getAlumno() {
+        return alumno;
+    }
+
+    /**
+     * @param alumno the alumno to set
+     */
+    public void setAlumno(String alumno) {
+        this.alumno = alumno;
+    }
+
+    /**
+     * @return the nombre
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * @param nombre the nombre to set
+     */
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    /**
+     * @return the carrera
+     */
+    public String getCarrera() {
+        return carrera;
+    }
+
+    /**
+     * @param carrera the carrera to set
+     */
+    public void setCarrera(String carrera) {
+        this.carrera = carrera;
+    }
+
+    /**
+     * @return the matricula
+     */
+    public String getMatricula() {
+        return matricula;
+    }
+
+    /**
+     * @param matricula the matricula to set
+     */
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    /**
+     * @return the grado
+     */
+    public String getGrado() {
+        return grado;
+    }
+  
+    public Tutor getTutor() {
+        return tutor;
+    }
+
+    public void setTutor(Tutor tutor) {
+        this.tutor = tutor;
+    }
+}
